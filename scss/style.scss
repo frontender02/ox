@@ -1,0 +1,22 @@
+// Base
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@700&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap');
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+// Components
+@import './components/menu';
+@import './components/logo';
+@import './components/account';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/hero';
+@import './blocks/choose-us';
+@import './blocks/resources';
+@import './blocks/articles';
+@import './blocks/competitors';
+@import './blocks/footer';
+
+// Media
+@import './media';

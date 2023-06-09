@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    &__link {
+        color: $clr-primary;
+        transition: color .3s linear;
+
+        &:hover {
+            color: $clr-accent;
+        }
+    }
+}

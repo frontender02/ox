@@ -1,0 +1,35 @@
+.competitors {
+    padding: 140px 0;
+
+    &__container {
+        padding: 81px 84px;
+        text-align: center;
+        background: $linear-gradient;
+        border-radius: 30px;
+    }
+
+    &__title {
+        margin: 0 auto 54px;
+        max-width: 768px;
+        font-family: $ff-secondary;
+        font-size: 64px;
+        line-height: 120%;
+        color: $clr-white;
+    }
+
+    &__btn {
+        padding: 23px 40px;
+        display: inline-block;
+        font-weight: 500;
+        line-height: 160%;
+        color: $clr-primary;
+        background-color: $clr-white;
+        border-radius: 10px;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            color: $clr-white;
+            background-color: $clr-primary;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.account {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 117%;
+    color: $clr-primary;
+    transition: color .3s linear;
+
+    img {
+        display: block;
+        padding: 12px;
+        width: 48px;
+        height: 48px;
+        background-color: $clr-primary;
+        border-radius: 10px;
+        transition: background-color .3s linear;
+    }
+
+    &:hover {
+        color: $clr-accent;
+    }
+    &:hover img {
+        background-color: $clr-accent;
+    }
+}

@@ -1,0 +1,9 @@
+.logo {
+    font-family: $ff-title;
+    font-weight: 700;
+    font-size: 48px;
+    background-image: $linear-gradient;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

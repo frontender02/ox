@@ -1,0 +1,102 @@
+.resources {
+    padding: 60px 0 140px;
+
+    // &__container {}
+
+    &__title {
+        margin-bottom: 60px;
+        max-width: 595px;
+        font-family: $ff-secondary;
+        font-size: 64px;
+        line-height: 135%;
+        color: $clr-primary;
+    }
+
+    &__slider {
+        margin-top: -124px;
+        padding-top: 124px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 40px;
+        width: 64px;
+        height: 64px;
+        background: $linear-gradient;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    .swiper-button-next {
+        right: 25px;
+    }
+    .swiper-button-prev {
+        right: 110px;
+        left: initial;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 20px;
+        color: $clr-white;
+    }
+}
+
+.slide-cart {
+    padding: 40px;
+    background-color: $clr-white;
+    border-radius: 15px;
+
+    &__title {
+        margin-bottom: 16px;
+        font-family: $ff-secondary;
+        font-size: 36px;
+        line-height: 100%;
+        color: $clr-primary;
+    }
+
+    &__subtitle {
+        margin-bottom: 36px;
+        line-height: 120%;
+    }
+
+    &__img {
+        margin-bottom: 60px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__footer {
+        margin: 0 auto;
+        padding: 16px 20px;
+        max-width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        border-radius: 10px;
+        background-color: #FFF2E4;
+    }
+
+    &__price {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: $clr-accent;
+    }
+
+    &__link {
+        padding: 18px 28px;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 118%;
+        color: $clr-white;
+        background-color: $clr-primary;
+        border-radius: 10px;
+        transition: background-color .4s ease-in-out;
+
+        &:hover {
+            background-color: $clr-accent;
+        }
+    }
+}

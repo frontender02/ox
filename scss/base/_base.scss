@@ -1,0 +1,49 @@
+:root {
+    --width-container: 1410px;
+    --font-size: 20px;
+}
+
+body {
+    font-family: $ff-primary;
+    font-size: var(--font-size);
+    color: rgba($clr-primary, 60%);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .page {
+        flex: 1 1 auto;
+    }
+}
+
+._container {
+    max-width: var(--width-container);
+    margin: 0 auto;
+
+    &--big {
+        padding: 0 15px;
+        max-width: 1535px;
+    }
+}
+
+.bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &--1 {
+        background-image: url('../img/decor/bg-1.png');
+    }
+    &--2 {
+        margin-top: -2px;
+        position: relative;
+        background-image: url('../img/decor/bg-2.png');
+    }
+    &--3 {
+        background-image: url('../img/decor/bg-3.png');
+    }
+}
